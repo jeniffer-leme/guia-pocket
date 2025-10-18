@@ -44,6 +44,6 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
 ---
 
 ## 📄 Licença
-Este projeto está sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT — veja o arquivo [LICENCE](https://github.com/jeniffer-leme/guia-pocket/blob/main/LICENSE) para mais detalhes.
    
    
