@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Guia Pocket - Bairro X</string>
+    <string name="local_name">Local Name</string>
+    <string name="category">Category</string>
 </resources>
