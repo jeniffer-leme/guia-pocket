@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/barbearia_atemporal"/>
+            android:src="@drawable/ic_launcher_foreground"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:padding="16dp"
-            app:cardBackgroundColor="@color/color_surface"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp">
 
@@ -44,8 +44,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="28sp"
-                    android:textColor="@color/color_on_surface"
-                    android:text="Barbearia Atemporal" />
+                    android:textColor="?attr/colorOnSurface"/>
 
                 <TextView
                     android:id="@+id/tvDetalheCategoria"
@@ -53,8 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:textSize="16sp"
-                    android:textColor="@color/color_secondary"
-                    android:text="Barbearia e Salão" />
+                    android:textColor="?attr/colorSecondary"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -69,10 +67,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sobre o Local"
+                android:text="@string/description"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@color/color_on_background" />
+                android:textColor="?attr/colorOnBackground"/>
 
             <TextView
                 android:id="@+id/tvDetalheDescricao"
@@ -80,16 +78,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:textSize="16sp"
-                android:textColor="@color/color_on_background"
-                android:text="A Barbearia Atemporal mantém a tradição de mais de 50 anos, oferecendo cortes clássicos e barbas à moda antiga, combinando conforto e modernidade. Um verdadeiro ícone do bairro Centenário." />
+                android:textColor="?attr/colorOnBackground"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Contato e Localização"
+                android:text="@string/contact"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@color/color_on_background"
+                android:textColor="?attr/colorOnBackground"
                 android:layout_marginTop="24dp" />
 
             <TextView
@@ -99,8 +96,7 @@
                 android:layout_marginTop="8dp"
                 android:drawablePadding="8dp"
                 android:textSize="16sp"
-                android:textColor="@color/color_on_background"
-                android:text="Rua das Acácias, 123 - Centro" />
+                android:textColor="?attr/colorOnBackground"/>
 
             <TextView
                 android:id="@+id/tvDetalheTelefone"
@@ -109,9 +105,47 @@
                 android:layout_marginTop="8dp"
                 android:drawablePadding="8dp"
                 android:textSize="16sp"
-                android:textColor="@color/color_on_background"
-                android:text="(99) 99999-9999" />
+                android:textColor="?attr/colorOnBackground"/>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLigar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/tel"
+                app:iconTint="?attr/colorOnPrimary"
+                android:backgroundTint="?attr/colorPrimary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVerNoMapa"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/maps"
+                app:iconTint="?attr/colorOnPrimary"
+                android:backgroundTint="?attr/colorPrimary" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCompartilhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/share"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            app:strokeColor="?attr/colorPrimary"
+            android:textColor="?attr/colorPrimary"
+            app:iconTint="?attr/colorPrimary"/>
     </LinearLayout>
 </LinearLayout>

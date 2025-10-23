@@ -3,5 +3,10 @@
     <string name="app_name">Guia Pocket - Centenário</string>
     <string name="local_name">Nome do Lugar</string>
     <string name="category">Categoria</string>
+    <string name="description">Sobre o lugar</string>
+    <string name="contact">Contato e Localização</string>
+    <string name="tel">Telefone</string>
+    <string name="maps">Localização</string>
+    <string name="share">Compartilhamento</string>
 
 </resources>
