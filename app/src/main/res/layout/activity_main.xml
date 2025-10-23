@@ -5,29 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F9F9F9"
-    android:padding="16dp"
+    android:background="@color/color_primary"
+    android:paddingTop="16dp"
     tools:context=".ui.MainActivity">
+
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.2"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
         android:text="@string/app_name"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:textColor="#333"
-        android:gravity="center" />
+        android:textColor="@color/color_on_primary"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
     <ListView
         android:id="@+id/listViewContatos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:divider="@android:color/holo_purple"
-        android:dividerHeight="2dp"
-        android:background="@android:color/white"
-        android:elevation="10dp"
-        android:padding="8dp"
-        android:listSelector="@android:color/holo_green_light" />
-</LinearLayout>
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:background="@color/color_background"
+        android:elevation="0dp"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"
+        android:listSelector="@color/color_secondary"
+        android:layout_marginHorizontal="0dp" />
 
+</LinearLayout>

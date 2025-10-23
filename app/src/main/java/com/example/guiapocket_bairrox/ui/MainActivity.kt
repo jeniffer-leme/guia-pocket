@@ -1,5 +1,6 @@
 package com.example.guiapocket_bairrox.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -10,7 +11,7 @@ import com.example.guiapocket_bairrox.model.Contato
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var contatos: List<Contato>
+    private lateinit var estabelecimentos: List<Contato>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -20,47 +21,74 @@ class MainActivity : AppCompatActivity() {
         setupListeners()
     }
     fun loadData(){
-        contatos = listOf(
+        estabelecimentos = listOf(
             Contato(
-                R.drawable.minkey,
-                "Minkey",
-                "(16) 98888-7777"
+                1,
+                R.drawable.varejao_opini,
+                "Varejão Opini",
+                "Supermercado",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             ),
             Contato(
-                R.drawable.mennie,
-                "Mennie",
-                "(16) 97777-6666"
+                2,
+                R.drawable.restaurante_kekantu,
+                "Kekantu",
+                "Restaurante",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             ),
             Contato(
-                R.drawable.patetla,
-                "Patleta",
-                "(16) 96666-5555"
+                3,
+                R.drawable.loja_malibu_modas,
+                "Malibu Modas",
+                "Loja",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             ),
             Contato(
-                R.drawable.truco,
-                "Truco",
-                "(16) 98888-7777"
+                4,
+                R.drawable.barbearia_atemporal,
+                "Barbearia Atemporal",
+                "Barbearia",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             ),
             Contato(
-                R.drawable.donaldo,
-                "Donaldo",
-                "(16) 97777-6666"
+                5,
+                R.drawable.padaria_sao_jose,
+                "Padaria São José",
+                "Padaria",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             ),
             Contato(
-                R.drawable.carlos,
-                "Carlos",
-                "(16) 96666-5555"
+                6,
+                R.drawable.gui_lanches,
+                "Gui Lanches",
+                "Lanchonete",
+                "blabla-descricao",
+                "rua blabla",
+                "123456789"
             )
         ).sortedBy { it.nome }
     }
     fun setupViews(){
-        val adapter = ContatoAdapter(this, contatos)
+        val adapter = ContatoAdapter(this, estabelecimentos)
         binding.listViewContatos.adapter = adapter
     }
     fun setupListeners(){
         binding.listViewContatos.setOnItemClickListener { _, _, position, _ ->
-            val contato = contatos[position]
-            Toast.makeText(this, "Estabelecimento: ${contato.nome}", Toast.LENGTH_SHORT).show()
+            val estabelecimento = estabelecimentos[position]
+            val intent = Intent(this, DetalheServicoActivity::class.java)
+            intent.putExtra(DetalheServicoActivity.EXTRA_CONTATO, estabelecimento)
+            startActivity(intent)
+            Toast.makeText(this, "Estabelecimento: ${estabelecimento.nome}", Toast.LENGTH_SHORT).show()
         }
     }
 }

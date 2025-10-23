@@ -27,7 +27,7 @@ class ContatoAdapter(
         binding.imgFoto.setImageResource(contato.foto)
         binding.tvNome.text = contato.nome
         binding.tvCategoria.text = contato.categoria
-        binding.tvIconeSeta.setImageResource(contato.foto)
+        //binding.tvIconeSeta.setImageResource(contato.foto)
         return itemView
     }
 }

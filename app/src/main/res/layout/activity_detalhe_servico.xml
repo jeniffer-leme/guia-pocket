@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".ui.DetalheServicoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="32dp">
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/barbearia_atemporal"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="16dp"
+            app:cardBackgroundColor="@color/color_surface"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvDetalheNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="28sp"
+                    android:textColor="@color/color_on_surface"
+                    android:text="Barbearia Atemporal" />
+
+                <TextView
+                    android:id="@+id/tvDetalheCategoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_secondary"
+                    android:text="Barbearia e Salão" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sobre o Local"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/color_on_background" />
+
+            <TextView
+                android:id="@+id/tvDetalheDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/color_on_background"
+                android:text="A Barbearia Atemporal mantém a tradição de mais de 50 anos, oferecendo cortes clássicos e barbas à moda antiga, combinando conforto e modernidade. Um verdadeiro ícone do bairro Centenário." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contato e Localização"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/color_on_background"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:id="@+id/tvDetalheEndereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/color_on_background"
+                android:text="Rua das Acácias, 123 - Centro" />
+
+            <TextView
+                android:id="@+id/tvDetalheTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/color_on_background"
+                android:text="(99) 99999-9999" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
