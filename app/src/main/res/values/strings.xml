@@ -3,9 +3,9 @@
     <string name="local_name">Local Name</string>
     <string name="category">Category</string>
     <string name="description">About the place</string>
-    <string name="contact">contact and location</string>
-    <string name="tel">telephone</string>
+    <string name="contact">Contact and Location</string>
+    <string name="tel">Telephone</string>
     <string name="maps">Localizion</string>
-    <string name="share">sharing</string>
-
+    <string name="share">Sharing</string>
+    <string name="enter">Enter</string>
 </resources>

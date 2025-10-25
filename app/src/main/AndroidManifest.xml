@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuiaPocketCentenario">
         <activity
+            android:name=".ui.CapaActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.DetalheServicoActivity"
             android:exported="false" />
         <activity
