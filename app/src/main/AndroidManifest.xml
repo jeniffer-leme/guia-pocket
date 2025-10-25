@@ -16,13 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuiaPocketCentenario">
         <activity
-            android:name=".ui.CapaActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.DetalheServicoActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.CapaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
