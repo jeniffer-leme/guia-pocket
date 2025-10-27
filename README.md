@@ -51,7 +51,7 @@ Esta seção exibe a interface principal do aplicativo em diferentes temas e idi
 
   ## 🎥 Demonstração em Vídeo
 
-📹 **[Clique Aqui - Demonstração do App](https://github.com/DudaZT/Projeto_DMO1/blob/main/video/video_projeto.mp4)**
+📹 **[Clique Aqui - Demonstração do App](https://github.com/jeniffer-leme/guia-pocket/blob/main/img//video_appBairro.webm)**
 
 ---
 
