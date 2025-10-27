@@ -49,10 +49,6 @@ Esta seção exibe a interface principal do aplicativo em diferentes temas e idi
   
   ---
 
-</p>
-
----
-
 ## 🧩 Funcionalidades
 - Exibição de lista personalizada de comércios e serviços locais  
 - Tela de detalhes com informações específicas  
