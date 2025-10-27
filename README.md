@@ -12,7 +12,7 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
 
 ---
 
-# 📸 Visualização (Screenshots)
+## 📸 Visualização (Screenshots)
 
 Esta seção exibe a interface principal do aplicativo em diferentes temas e idiomas.
 
