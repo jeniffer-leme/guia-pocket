@@ -16,25 +16,36 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
 
 Esta seção exibe a interface principal do aplicativo em diferentes temas e idiomas.
 
-<p align="center">
   
   ---
   
   ### ☀️ Modo Claro (Português)
   
-  <img src="URL_DA_IMAGEM_CLARO_PT" alt="Captura de tela da tela principal no modo claro em português." width="300"/>
+  <p align="left">
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-claro.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-claro.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-claro.png?raw=true)" width="200"/>
+  </p>
   
   ---
   
   ### 🌙 Modo Escuro (Português)
   
-  <img src="URL_DA_IMAGEM_ESCURO_PT" alt="Captura de tela da tela principal no modo escuro em português." width="300"/>
+  <p align="left">
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-escuro.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-escuro.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-escuro.png?raw=true)" width="200"/>
+  </p>
   
   ---
   
-  ### 🇬🇧 English Mode (Light/Dark)
+  ### 🇬🇧 English Mode (Light)
   
-  <img src="URL_DA_IMAGEM_INGLES" alt="Captura de tela da tela principal no modo inglês." width="300"/>
+  <p align="left">
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-ingles.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-ingles.png?raw=true)" width="200"/>
+    &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-ingles.png?raw=true)" width="200"/>
+  </p>
   
   ---
 
