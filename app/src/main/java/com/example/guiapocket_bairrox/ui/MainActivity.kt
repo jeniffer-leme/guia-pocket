@@ -25,56 +25,56 @@ class MainActivity : AppCompatActivity() {
             Contato(
                 1,
                 R.drawable.varejao_opini,
-                "Varejão Opini",
-                "Supermercado",
-                "No Varejão Opini, você encontra frutas, verduras, legumes e produtos naturais sempre fresquinhos e selecionados com carinho. Trabalhamos com produtores locais para garantir qualidade, preço justo e aquele atendimento acolhedor de sempre.",
-                "Rua Atílio Chiavolone",
-                "3344-2153"
+                getString(R.string.varejao_opini_name), // Nome (Assumindo R.string.varejao_opini_name)
+                getString(R.string.category_supermarket),
+                getString(R.string.varejao_opini_description),
+                getString(R.string.varejao_opini_address),
+                getString(R.string.varejao_opini_phone)
             ),
             Contato(
                 2,
                 R.drawable.restaurante_kekantu,
-                "Kekantu",
-                "Restaurante",
-                "No Kekantu, cada prato é preparado com ingredientes frescos e um toque especial de carinho. Servimos comidas caseiras, saborosas e bem temperadas, do jeito que você gosta! Seja para o almoço, jantar ou aquele lanche rápido, aqui você encontra qualidade, bom atendimento e um ambiente acolhedor.",
-                "Av. Afonso Celestino, 260",
-                "(016) 99730-1545"
+                getString(R.string.kekantu_name),
+                getString(R.string.category_restaurant),
+                getString(R.string.kekantu_description),
+                getString(R.string.kekantu_address),
+                getString(R.string.kekantu_phone)
             ),
             Contato(
                 3,
                 R.drawable.loja_malibu_modas,
-                "Malibu Modas",
-                "Loja",
-                "Na Malibu Modas, você encontra as últimas tendências da moda com qualidade, conforto e preços que cabem no seu bolso. Trabalhamos com peças femininas e masculinas para todos os estilos e ocasiões — do casual ao elegante.",
-                "Av. Manoel Gayoso, 435",
-                "(016) 99607-9239"
+                getString(R.string.malibu_modas_name),
+                getString(R.string.category_store),
+                getString(R.string.malibu_modas_description),
+                getString(R.string.malibu_modas_address),
+                getString(R.string.malibu_modas_phone)
             ),
             Contato(
                 4,
                 R.drawable.barbearia_atemporal,
-                "Barbearia Atemporal",
-                "Barbearia",
-                "Na Barbearia Atemporal, unir o clássico e o moderno é o nosso diferencial. Oferecemos cortes, barbas e cuidados masculinos com qualidade, atenção e aquele ambiente acolhedor que faz você se sentir em casa.",
-                "Rua Sestilio Francioli, 600",
-                "(99) 99999-9999"
+                getString(R.string.barbearia_atemporal_name),
+                getString(R.string.category_barbershop),
+                getString(R.string.barbearia_atemporal_description),
+                getString(R.string.barbearia_atemporal_address),
+                getString(R.string.barbearia_atemporal_phone)
             ),
             Contato(
                 5,
                 R.drawable.padaria_sao_jose,
-                "Padaria São José",
-                "Padaria",
-                "Na Padaria São José, cada pão é feito com carinho e aquele cheirinho irresistível de fresquinho. Oferecemos pães, bolos, doces e salgados preparados com ingredientes de qualidade e o cuidado de sempre.o",
-                "Rua Atílio Chiavolone, 179",
-                "(016) 33444-1526"
+                getString(R.string.padaria_sao_jose_name),
+                getString(R.string.category_bakery),
+                getString(R.string.padaria_sao_jose_description),
+                getString(R.string.padaria_sao_jose_address),
+                getString(R.string.padaria_sao_jose_phone)
             ),
             Contato(
                 6,
                 R.drawable.gui_lanches,
-                "Gui Lanches",
-                "Lanchonete",
-                "Na Gui Lanches, cada lanche é preparado com ingredientes frescos e muito capricho. Temos opções irresistíveis de hambúrgueres, porções, sucos e aquele refrigerante geladinho que completa o combo perfeito.",
-                "Rua Domingos de Almeida, 122",
-                "(016) 99715-1603"
+                getString(R.string.gui_lanches_name),
+                getString(R.string.category_snackbar),
+                getString(R.string.gui_lanches_description),
+                getString(R.string.gui_lanches_address),
+                getString(R.string.gui_lanches_phone)
             )
         ).sortedBy { it.nome }
     }

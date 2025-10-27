@@ -2,11 +2,50 @@
 <resources>
     <string name="app_name">Guia Pocket - Centenário</string>
     <string name="local_name">Nome do Lugar</string>
+
     <string name="category">Categoria</string>
     <string name="description">Sobre o lugar</string>
     <string name="contact">Contato e Localização</string>
+
     <string name="tel">Telefone</string>
     <string name="maps">Localização</string>
-    <string name="share">Compartilhamento</string>
+    <string name="share">Compartilhar</string>
+
     <string name="enter">Entrar</string>
+
+    <string name="varejao_opini_name">Varejão Opini</string>
+    <string name="category_supermarket">Supermercado</string>
+    <string name="varejao_opini_description">No Varejão Opini, você encontra frutas, verduras, legumes e produtos naturais sempre fresquinhos e selecionados com carinho. Trabalhamos com produtores locais para garantir qualidade, preço justo e aquele atendimento acolhedor de sempre.</string>
+    <string name="varejao_opini_address">Rua Atílio Chiavolone</string>
+    <string name="varejao_opini_phone">3344-2153</string>
+
+    <string name="kekantu_name">Kekantu</string>
+    <string name="category_restaurant">Restaurante</string>
+    <string name="kekantu_description">No Kekantu, cada prato é preparado com ingredientes frescos e um toque especial de carinho. Servimos comidas caseiras, saborosas e bem temperadas, do jeito que você gosta! Seja para o almoço, jantar ou aquele lanche rápido, aqui você encontra qualidade, bom atendimento e um ambiente acolhedor.</string>
+    <string name="kekantu_address">Av. Afonso Celestino, 260</string>
+    <string name="kekantu_phone">(016) 99730-1545</string>
+
+    <string name="malibu_modas_name">Malibu Modas</string>
+    <string name="category_store">Loja</string>
+    <string name="malibu_modas_description">Na Malibu Modas, você encontra as últimas tendências da moda com qualidade, conforto e preços que cabem no seu bolso. Trabalhamos com peças femininas e masculinas para todos os estilos e ocasiões — do casual ao elegante.</string>
+    <string name="malibu_modas_address">Av. Manoel Gayoso, 435</string>
+    <string name="malibu_modas_phone">(016) 99607-9239</string>
+
+    <string name="barbearia_atemporal_name">Barbearia Atemporal</string>
+    <string name="category_barbershop">Barbearia</string>
+    <string name="barbearia_atemporal_description">Na Barbearia Atemporal, unir o clássico e o moderno é o nosso diferencial. Oferecemos cortes, barbas e cuidados masculinos com qualidade, atenção e aquele ambiente acolhedor que faz você se sentir em casa.</string>
+    <string name="barbearia_atemporal_address">Rua Sestilio Francioli, 600</string>
+    <string name="barbearia_atemporal_phone">(99) 99999-9999</string>
+
+    <string name="padaria_sao_jose_name">Padaria São José</string>
+    <string name="category_bakery">Padaria</string>
+    <string name="padaria_sao_jose_description">Na Padaria São José, cada pão é feito com carinho e aquele cheirinho irresistível de fresquinho. Oferecemos pães, bolos, doces e salgados preparados com ingredientes de qualidade e o cuidado de sempre.</string>
+    <string name="padaria_sao_jose_address">Rua Atílio Chiavolone, 179</string>
+    <string name="padaria_sao_jose_phone">(016) 33444-1526</string>
+
+    <string name="gui_lanches_name">Gui Lanches</string>
+    <string name="category_snackbar">Lanchonete</string>
+    <string name="gui_lanches_description">Na Gui Lanches, cada lanche é preparado com ingredientes frescos e muito capricho. Temos opções irresistíveis de hambúrgueres, porções, sucos e aquele refrigerante geladinho que completa o combo perfeito.</string>
+    <string name="gui_lanches_address">Rua Domingos de Almeida, 122</string>
+    <string name="gui_lanches_phone">(016) 99715-1603</string>
 </resources>

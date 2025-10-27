@@ -122,6 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:text="@string/tel"
+                app:icon="@drawable/ic_phone"
                 app:iconTint="?attr/colorOnPrimary"
                 android:backgroundTint="?attr/colorPrimary" />
 
@@ -132,6 +133,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/maps"
+                app:icon="@drawable/ic_map"
                 app:iconTint="?attr/colorOnPrimary"
                 android:backgroundTint="?attr/colorPrimary" />
 
@@ -143,6 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/share"
+            app:icon="@drawable/ic_share"
             style="@style/Widget.Material3.Button.OutlinedButton"
             app:strokeColor="?attr/colorPrimary"
             android:textColor="?attr/colorPrimary"
