@@ -22,6 +22,7 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-claro.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-claro.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-claro.png?raw=true" width="200"/>
+  &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/cadastro_modo-claro.png?raw=true" width="200"/>
 </p>
 
 ### 🌙 Modo Escuro (Português)
@@ -29,6 +30,7 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-escuro.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-escuro.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-escuro.png?raw=true" width="200"/>
+  &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/cadastro_modo-escuro.png?raw=true" width="200"/>
 </p>
 
 ### 🇬🇧 English Mode (Light)
@@ -36,6 +38,7 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/capa_modo-ingles.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/lista_modo-ingles.png?raw=true" width="200"/>
   &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/estabelecimento_modo-ingles.png?raw=true" width="200"/>
+  &nbsp;&nbsp;&nbsp;<img src="https://github.com/jeniffer-leme/guia-pocket/blob/main/img/cadastro_modo-ingles.png?raw=true" width="200"/>
 </p>
 
 ---
