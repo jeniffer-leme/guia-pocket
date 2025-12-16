@@ -46,6 +46,11 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
 ## 🎥 Demonstração em Vídeo
 📹 **[Clique Aqui - Demonstração do App](https://github.com/jeniffer-leme/guia-pocket/blob/main/img/video_app.webm)**
 
+## 🎬 Apresentação em Vídeo
+Assista à demonstração completa do aplicativo, suas funcionalidades e implementação técnica!
+
+➡️ **[ASSISTA AQUI NO YOUTUBE](https://www.youtube.com/watch?v=OfESKiAcayE)** ⬅️
+
 ---
 
 ## 🧩 Funcionalidades
