@@ -33,7 +33,9 @@ class DetalheServicoActivity : AppCompatActivity() {
     }
 
     private fun preencherDados(contato: Contato) {
-        binding.imgFoto.setImageResource(contato.foto)
+        if (contato.imagemUri.isNotBlank()) {
+            binding.imgFoto.setImageURI(Uri.parse(contato.imagemUri))
+        }
         binding.tvDetalheNome.text = contato.nome
         binding.tvDetalheCategoria.text = contato.categoria
         binding.tvDetalheDescricao.text = contato.descricao

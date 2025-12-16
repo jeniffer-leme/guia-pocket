@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuiaPocketCentenario">
         <activity
+            android:name=".ui.CadastroActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.MainActivity"
             android:exported="false" />
         <activity

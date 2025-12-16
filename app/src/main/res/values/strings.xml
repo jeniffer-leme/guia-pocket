@@ -1,22 +1,21 @@
 <resources>
-    <string name="app_name">Guia Pocket - Centenário</string>
-
+    <string name="app_name">Guia Pocket - Centenario</string>
     <string name="local_name">Local Name</string>
-    <string name="category">Category</string>
 
+    <string name="category">Category</string>
     <string name="description">About the place</string>
     <string name="contact">Contact and Location</string>
 
     <string name="tel">Telephone</string>
-    <string name="maps">Localization</string>
+    <string name="maps">Location</string>
     <string name="share">Share</string>
 
     <string name="enter">Enter</string>
 
-    <string name="varejao_opini_name">Varejão Opini</string>
+    <string name="varejao_opini_name">Varejao Opini</string>
     <string name="category_supermarket">Supermarket</string>
-    <string name="varejao_opini_description">At Varejão Opini, you will always find fresh and carefully selected fruits, vegetables, greens, and natural products. We work with local producers to ensure quality, fair prices, and the same welcoming service every time.</string>
-    <string name="varejao_opini_address">Rua Atílio Chiavolone</string>
+    <string name="varejao_opini_description">At Varejao Opini, you will always find fresh and carefully selected fruits, vegetables, greens, and natural products. We work with local producers to ensure quality, fair prices, and the same welcoming service every time.</string>
+    <string name="varejao_opini_address">Rua Atilio Chiavolone</string>
     <string name="varejao_opini_phone">3344-2153</string>
 
     <string name="kekantu_name">Kekantu</string>
@@ -27,20 +26,20 @@
 
     <string name="malibu_modas_name">Malibu Modas</string>
     <string name="category_store">Store</string>
-    <string name="malibu_modas_description">At Malibu Modas, you\'ll find the latest fashion trends with quality, comfort, and prices that fit your budget. We work with women\'s and men\'s clothing for all styles and occasions — from casual to elegant.</string>
+    <string name="malibu_modas_description">At Malibu Modas, you will find the latest fashion trends with quality, comfort, and prices that fit your budget. We work with womens &amp; mens clothing for all styles and occasions, from casual to elegant.</string>
     <string name="malibu_modas_address">Av. Manoel Gayoso, 435</string>
     <string name="malibu_modas_phone">(016) 99607-9239</string>
 
     <string name="barbearia_atemporal_name">Atemporal Barbershop</string>
     <string name="category_barbershop">Barbershop</string>
-    <string name="barbearia_atemporal_description">At Atemporal Barbershop, uniting the classic and the modern is our differential. We offer cuts, shaves, and men\'s grooming with quality, attention, and that welcoming atmosphere that makes you feel at home.</string>
+    <string name="barbearia_atemporal_description">At Atemporal Barbershop, uniting the classic and the modern is our differential. We offer haircuts, shaves, and mens grooming with quality, attention, and a welcoming atmosphere that makes you feel at home.</string>
     <string name="barbearia_atemporal_address">Rua Sestilio Francioli, 600</string>
     <string name="barbearia_atemporal_phone">(99) 99999-9999</string>
 
-    <string name="padaria_sao_jose_name">São José Bakery</string>
+    <string name="padaria_sao_jose_name">Sao Jose Bakery</string>
     <string name="category_bakery">Bakery</string>
-    <string name="padaria_sao_jose_description">At São José Bakery, every bread is made with care and that irresistible fresh smell. We offer bread, cakes, sweets, and savory snacks prepared with quality ingredients and constant care.</string>
-    <string name="padaria_sao_jose_address">Rua Atílio Chiavolone, 179</string>
+    <string name="padaria_sao_jose_description">At Sao Jose Bakery, every bread is made with care and that irresistible fresh smell. We offer bread, cakes, sweets, and savory snacks prepared with quality ingredients and constant attention.</string>
+    <string name="padaria_sao_jose_address">Rua Atilio Chiavolone, 179</string>
     <string name="padaria_sao_jose_phone">(016) 33444-1526</string>
 
     <string name="gui_lanches_name">Gui Snacks</string>
@@ -48,4 +47,11 @@
     <string name="gui_lanches_description">At Gui Snacks, every sandwich is prepared with fresh ingredients and great care. We have irresistible options for hamburgers, side dishes, juices, and that ice-cold soda that completes the perfect combo.</string>
     <string name="gui_lanches_address">Rua Domingos de Almeida, 122</string>
     <string name="gui_lanches_phone">(016) 99715-1603</string>
+
+    <string name="search">Search</string>
+
+    <string name="image">Choose Image</string>
+    <string name="descriptions">Description</string>
+    <string name="address">Adress</string>
+    <string name="save">Save</string>
 </resources>

@@ -1,51 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Guia Pocket - Centenário</string>
+    <string name="app_name">Guia Pocket - Centenario</string>
     <string name="local_name">Nome do Lugar</string>
 
     <string name="category">Categoria</string>
     <string name="description">Sobre o lugar</string>
-    <string name="contact">Contato e Localização</string>
+    <string name="contact">Contato e Localizacao</string>
 
     <string name="tel">Telefone</string>
-    <string name="maps">Localização</string>
+    <string name="maps">Localizacao</string>
     <string name="share">Compartilhar</string>
 
     <string name="enter">Entrar</string>
 
-    <string name="varejao_opini_name">Varejão Opini</string>
+    <string name="varejao_opini_name">Varejao Opini</string>
     <string name="category_supermarket">Supermercado</string>
-    <string name="varejao_opini_description">No Varejão Opini, você encontra frutas, verduras, legumes e produtos naturais sempre fresquinhos e selecionados com carinho. Trabalhamos com produtores locais para garantir qualidade, preço justo e aquele atendimento acolhedor de sempre.</string>
-    <string name="varejao_opini_address">Rua Atílio Chiavolone</string>
+    <string name="varejao_opini_description">No Varejao Opini, voce encontra frutas, verduras, legumes e produtos naturais sempre fresquinhos e selecionados com carinho. Trabalhamos com produtores locais para garantir qualidade, preco justo e aquele atendimento acolhedor de sempre.</string>
+    <string name="varejao_opini_address">Rua Atilio Chiavolone</string>
     <string name="varejao_opini_phone">3344-2153</string>
 
     <string name="kekantu_name">Kekantu</string>
     <string name="category_restaurant">Restaurante</string>
-    <string name="kekantu_description">No Kekantu, cada prato é preparado com ingredientes frescos e um toque especial de carinho. Servimos comidas caseiras, saborosas e bem temperadas, do jeito que você gosta! Seja para o almoço, jantar ou aquele lanche rápido, aqui você encontra qualidade, bom atendimento e um ambiente acolhedor.</string>
+    <string name="kekantu_description">No Kekantu, cada prato e preparado com ingredientes frescos e um toque especial de carinho. Servimos comidas caseiras, saborosas e bem temperadas, do jeito que voce gosta! Seja para o almoco, jantar ou aquele lanche rapido, aqui voce encontra qualidade, bom atendimento e um ambiente acolhedor.</string>
     <string name="kekantu_address">Av. Afonso Celestino, 260</string>
     <string name="kekantu_phone">(016) 99730-1545</string>
 
     <string name="malibu_modas_name">Malibu Modas</string>
     <string name="category_store">Loja</string>
-    <string name="malibu_modas_description">Na Malibu Modas, você encontra as últimas tendências da moda com qualidade, conforto e preços que cabem no seu bolso. Trabalhamos com peças femininas e masculinas para todos os estilos e ocasiões — do casual ao elegante.</string>
+    <string name="malibu_modas_description">Na Malibu Modas, voce encontra as ultimas tendencias da moda com qualidade, conforto e precos que cabem no seu bolso. Trabalhamos com pecas femininas &amp; masculinas para todos os estilos e ocasioes do casual ao elegante.</string>
     <string name="malibu_modas_address">Av. Manoel Gayoso, 435</string>
     <string name="malibu_modas_phone">(016) 99607-9239</string>
 
     <string name="barbearia_atemporal_name">Barbearia Atemporal</string>
     <string name="category_barbershop">Barbearia</string>
-    <string name="barbearia_atemporal_description">Na Barbearia Atemporal, unir o clássico e o moderno é o nosso diferencial. Oferecemos cortes, barbas e cuidados masculinos com qualidade, atenção e aquele ambiente acolhedor que faz você se sentir em casa.</string>
+    <string name="barbearia_atemporal_description">Na Barbearia Atemporal, unir o classico e o moderno e o nosso diferencial. Oferecemos cortes, barbas e cuidados masculinos com qualidade, atencao e aquele ambiente acolhedor que faz voce se sentir em casa.</string>
     <string name="barbearia_atemporal_address">Rua Sestilio Francioli, 600</string>
     <string name="barbearia_atemporal_phone">(99) 99999-9999</string>
 
-    <string name="padaria_sao_jose_name">Padaria São José</string>
+    <string name="padaria_sao_jose_name">Padaria Sao Jose</string>
     <string name="category_bakery">Padaria</string>
-    <string name="padaria_sao_jose_description">Na Padaria São José, cada pão é feito com carinho e aquele cheirinho irresistível de fresquinho. Oferecemos pães, bolos, doces e salgados preparados com ingredientes de qualidade e o cuidado de sempre.</string>
-    <string name="padaria_sao_jose_address">Rua Atílio Chiavolone, 179</string>
+    <string name="padaria_sao_jose_description">Na Padaria Sao Jose, cada pao e feito com carinho e aquele cheirinho irresistivel de fresquinho. Oferecemos paes, bolos, doces e salgados preparados com ingredientes de qualidade e o cuidado de sempre.</string>
+    <string name="padaria_sao_jose_address">Rua Atilio Chiavolone, 179</string>
     <string name="padaria_sao_jose_phone">(016) 33444-1526</string>
 
     <string name="gui_lanches_name">Gui Lanches</string>
     <string name="category_snackbar">Lanchonete</string>
-    <string name="gui_lanches_description">Na Gui Lanches, cada lanche é preparado com ingredientes frescos e muito capricho. Temos opções irresistíveis de hambúrgueres, porções, sucos e aquele refrigerante geladinho que completa o combo perfeito.</string>
+    <string name="gui_lanches_description">Na Gui Lanches, cada lanche e preparado com ingredientes frescos e muito capricho. Temos opcoes irresistiveis de hamburgueres, porcoes, sucos e aquele refrigerante geladinho que completa o combo perfeito.</string>
     <string name="gui_lanches_address">Rua Domingos de Almeida, 122</string>
     <string name="gui_lanches_phone">(016) 99715-1603</string>
+
+    <string name="search">Pesquisar</string>
+
+    <string name="image">Escolher imagem</string>
+    <string name="descriptions">Descrição</string>
+    <string name="address">Endereço</string>
+    <string name="save">Salvar</string>
 </resources>

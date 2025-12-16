@@ -25,5 +25,15 @@
 
     <color name="color_error">#B00020</color>
     <color name="color_on_error">@color/white</color>
+    <!-- Cores antigas do template -->
+    <color name="purple">#FF6200EE</color>
+    <color name="teal">#FF03DAC5</color>
+    <color name="black">#FF000000</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
 
+
+
+    <!-- Suas novas cores -->
+    <!-- <color name="white">#FAFAFA</color> -->
 </resources>

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.ksp)
     id("kotlin-parcelize")
 }
 
@@ -47,6 +48,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // Dependências do Room CORRIGIDAS
+    implementation(libs.androidx.room.runtime) // Biblioteca principal do Room
+    implementation(libs.androidx.room.ktx)      // Funções de extensão Kotlin (Coroutines, etc.)
+    ksp(libs.androidx.room.compiler)             // ESSENCIAL: Compilador de anotações
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

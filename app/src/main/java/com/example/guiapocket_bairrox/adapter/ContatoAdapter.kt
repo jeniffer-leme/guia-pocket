@@ -1,6 +1,7 @@
 package com.example.guiapocket_bairrox.adapter
 
 import android.content.Context
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +11,7 @@ import com.example.guiapocket_bairrox.model.Contato
 
 class ContatoAdapter(
     context: Context,
-    private val lista: List<Contato>
+    lista: List<Contato>
 ) : ArrayAdapter<Contato>(context, 0, lista) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val binding: ItemServicoBinding
@@ -23,11 +24,17 @@ class ContatoAdapter(
             itemView = convertView
             binding = itemView.tag as ItemServicoBinding
         }
-        val contato = lista[position]
-        binding.imgFoto.setImageResource(contato.foto)
-        binding.tvNome.text = contato.nome
-        binding.tvCategoria.text = contato.categoria
-        //binding.tvIconeSeta.setImageResource(contato.foto)
+
+        val contato = getItem(position)
+
+        if (contato != null) {
+            if (contato.imagemUri.isNotBlank()) {
+                binding.imgFoto.setImageURI(Uri.parse(contato.imagemUri))
+            }
+            binding.tvNome.text = contato.nome
+            binding.tvCategoria.text = contato.categoria
+        }
+
         return itemView
     }
 }

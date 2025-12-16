@@ -1,13 +1,18 @@
 [versions]
-agp = "8.13.0"
-kotlin = "2.0.21"
-coreKtx = "1.10.1"
+# --- VERSÕES ESTÁVEIS E COMPATÍVEIS ---
+agp = "8.2.2"                     # <-- Versão estável e robusta do Android Gradle Plugin
+kotlin = "1.9.22"                 # <-- Esta versão está correta e é compatível
+ksp = "1.9.22-1.0.17"             # <-- Esta também está correta
+room = "2.6.1"                    # <-- Esta também está correta
+
+# Suas outras versões estão ok
+coreKtx = "1.12.0"                # Versão um pouco mais recente e estável
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
-material = "1.10.0"
-activity = "1.8.0"
+material = "1.11.0"               # Versão mais recente e estável
+activity = "1.8.2"                # Versão mais recente e estável
 constraintlayout = "2.1.4"
 
 [libraries]
@@ -20,7 +25,12 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
+# Dependências do Room (estavam corretas)
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
