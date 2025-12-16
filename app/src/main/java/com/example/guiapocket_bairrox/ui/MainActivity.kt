@@ -28,10 +28,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // 1. Obter o DAO do banco de dados
         contatoDao = AppDatabase.getDatabase(applicationContext).contatoDao()
 
-        // 2. Configurar o Adapter (uma única vez)
         adapter = ContatoRecyclerAdapter(emptyList()) { contato ->
             val intent = Intent(this, DetalheServicoActivity::class.java).apply {
                 putExtra(DetalheServicoActivity.EXTRA_CONTATO, contato)
@@ -41,20 +39,16 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerContatos.layoutManager = LinearLayoutManager(this)
         binding.recyclerContatos.adapter = adapter
 
-        // 3. Observar os dados e popular se necessário
         observeContatos()
 
-        // 4. Configurar Listeners
         setupListeners()
     }
 
     private fun observeContatos() {
         contatoDao.getAll().observe(this, Observer { contatos ->
             if (contatos.isEmpty()) {
-                // Se o banco estiver vazio, popule-o com os dados iniciais
                 populateDatabase()
             } else {
-                // Se já houver dados, atualize a lista
                 masterList = contatos
                 filterList(binding.etPesquisar.query.toString())
             }
@@ -62,7 +56,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupListeners() {
-        // Listener de Pesquisa
         binding.etPesquisar.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean = false
             override fun onQueryTextChange(newText: String?): Boolean {
@@ -71,7 +64,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        // Listener do Botão de Adicionar (FAB)
         binding.fabAdicionar.setOnClickListener {
             startActivity(Intent(this, CadastroActivity::class.java))
         }

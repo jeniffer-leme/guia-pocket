@@ -44,7 +44,6 @@ class DetalheServicoActivity : AppCompatActivity() {
     }
 
     private fun setupActionListeners(contato: Contato) {
-        // Botão de ligar(tel)
         binding.btnLigar.setOnClickListener {
             val telefoneLimpo = contato.telefone.replace("[^0-9]".toRegex(), "")
             val intentLigar = Intent(Intent.ACTION_DIAL).apply {
@@ -53,7 +52,6 @@ class DetalheServicoActivity : AppCompatActivity() {
             startActivity(intentLigar)
         }
 
-        // Botão de abrir no maps
         binding.btnVerNoMapa.setOnClickListener {
             val enderecoEncoded = Uri.encode(contato.endereco)
             val uriMapa = Uri.parse("geo:0,0?q=$enderecoEncoded")
@@ -69,7 +67,6 @@ class DetalheServicoActivity : AppCompatActivity() {
             }
         }
 
-        // Botão de compartilhar p/ outros apps
         binding.btnCompartilhar.setOnClickListener {
             val textoCompartilhar =
                 "Confira: ${contato.nome} (${contato.categoria}). Endereço: ${contato.endereco}. Telefone: ${contato.telefone}."

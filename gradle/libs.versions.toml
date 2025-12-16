@@ -1,18 +1,16 @@
 [versions]
-# --- VERSÕES ESTÁVEIS E COMPATÍVEIS ---
-agp = "8.2.2"                     # <-- Versão estável e robusta do Android Gradle Plugin
-kotlin = "1.9.22"                 # <-- Esta versão está correta e é compatível
-ksp = "1.9.22-1.0.17"             # <-- Esta também está correta
-room = "2.6.1"                    # <-- Esta também está correta
+agp = "8.2.2"
+kotlin = "1.9.22"
+ksp = "1.9.22-1.0.17"
+room = "2.6.1"
 
-# Suas outras versões estão ok
-coreKtx = "1.12.0"                # Versão um pouco mais recente e estável
+coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
-material = "1.11.0"               # Versão mais recente e estável
-activity = "1.8.2"                # Versão mais recente e estável
+material = "1.11.0"
+activity = "1.8.2"
 constraintlayout = "2.1.4"
 
 [libraries]

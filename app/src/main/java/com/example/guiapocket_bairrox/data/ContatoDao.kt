@@ -11,8 +11,8 @@ interface ContatoDao {
     suspend fun inserir(contato: Contato)
 
     @Query("SELECT * FROM contatos ORDER BY nome ASC")
-    fun getAll(): LiveData<List<Contato>> // <-- CORRIGIDO: Retorna LiveData e não é suspend
+    fun getAll(): LiveData<List<Contato>>
 
     @Query("SELECT * FROM contatos WHERE nome LIKE '%' || :texto || '%' ORDER BY nome ASC")
-    fun filtrarPorNome(texto: String): LiveData<List<Contato>> // <-- CORRIGIDO: Para uso futuro com busca
+    fun filtrarPorNome(texto: String): LiveData<List<Contato>>
 }
