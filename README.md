@@ -41,7 +41,7 @@ O app oferece uma **experiência simples, funcional e visualmente atrativa**, pe
 ---
 
 ## 🎥 Demonstração em Vídeo
-📹 **[Clique Aqui - Demonstração do App](https://github.com/jeniffer-leme/guia-pocket/blob/main/img/video_appBairro.webm)**
+📹 **[Clique Aqui - Demonstração do App](https://github.com/jeniffer-leme/guia-pocket/blob/main/img/video_app.webm)**
 
 ---
 
